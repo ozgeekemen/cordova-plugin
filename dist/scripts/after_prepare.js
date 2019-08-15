@@ -94,7 +94,7 @@ function extractGoogleServicesConfig(cordovaContext) {
       const projectId = googleServicesConfig.project_info.project_id;
 
       // arnesson/cordova-plugin-firebase compatibility
-      const compatMode = hasPlugin(cordovaContext, "cordova-plugin-firebase");
+      const compatMode = hasPlugin(cordovaContext, "cordova-plugin-firebasex");
       if (compatMode) {
         log("cordova-plugin-firebase detected: using compatibility mode");
       }
