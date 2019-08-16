@@ -1,8 +1,0 @@
-{
-  "extends": "../tsconfig",
-  "compilerOptions": {
-    "lib": ["es5"],
-    "types": ["node", "jest"]
-  },
-  "include": ["./**/*", "../src/**/*", "../types/**/*"]
-}
